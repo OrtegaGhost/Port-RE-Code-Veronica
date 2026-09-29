@@ -1,6 +1,7 @@
 # VeronicaRecomp Functions
 
 [functions]
+# Initial boot
 0x827E9A60 = {}
 0x823D1438 = {}
 0x8281D028 = {}
@@ -13,8 +14,12 @@
 0x823BA918 = {}
 0x82B81558 = {}
 0x82348668 = {}
+# In-game
+0x821DA3E8 = {}
+0x821ED478 = {}
 
 [[switch_tables]]
+# Starting game
 address = 0x822E52A4
 register = 8
 labels = [
