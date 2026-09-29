@@ -1,0 +1,9 @@
+# Ignore files that might be game assets
+*.xex
+*.xexp
+*.iso
+*.exe
+assets/*
+!assets/fonts/
+out/*
+generated/default/*
