@@ -52,6 +52,7 @@ namespace CodeVeronica {
 
         //Other
         {"audio_maxqframes","16"}, // Increasing might reduce performance
+        {"readback_resolve", "full"}, // Increases performance when set to full.
         {"readback_memexport", "false"}, 
         {"clear_memory_page_state", "false"}, // Performance gain by reducing CPU overhead. Could also cause instability.
         ///{"execute_unclipped_draw_vs_on_cpu", "true"},
