@@ -21,14 +21,12 @@ namespace CodeVeronica {
         config.gpu_plugin = "xenos";
       }
 
-      void OnConfigurePaths(rex::PathConfig& paths) override {
-        SetDefaultPaths(paths);
+      void OnPostSetup() override{
+          InitializeDefaultSettings(window());
       }
 
-      std::optional<rex::PathConfig> OnFinalizePaths(const rex::PathConfig& defaults, std::function<void(rex::PathConfig)> resume) override {
-        InitializeDefaultSettings(window());
-        (void)resume;
-        return defaults;
+      void OnConfigurePaths(rex::PathConfig& paths) override {
+        SetDefaultPaths(paths);
       }
     };
 }
