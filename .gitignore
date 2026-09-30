@@ -1,9 +1,14 @@
-# Ignore files that might be game assets
-*.xex
-*.xexp
+# Juego, BIOS e imagenes: NUNCA se suben (material con copyright)
 *.iso
-*.exe
-assets/*
-!assets/fonts/
-out/*
-generated/default/*
+*.bin
+*.nvm
+*.mec
+*.erom
+*.rom1
+*.rom2
+*.cue
+*.img
+*.chd
+*.7z
+emulador/
+juego/
